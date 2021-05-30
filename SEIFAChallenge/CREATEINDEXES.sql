@@ -1,0 +1,15 @@
+IF(SELECT Count(1) FROM sys.indexes WHERE name='IDX_LGA_CODE' AND object_id = OBJECT_ID('SEIFA_2011'))=0
+BEGIN
+	Create INDEX IDX_LGA_CODE on [dbo].[SEIFA_2011](LGA_Code)
+END
+GO
+IF(SELECT Count(1) FROM sys.indexes WHERE name='IDX_STATE' AND object_id = OBJECT_ID('SEIFA_2011'))=0
+BEGIN
+	CREATE INDEX IDX_STATE on [dbo].[SEIFA_2011]([State])
+END
+GO
+IF(SELECT Count(1) FROM sys.indexes WHERE name='IDX_LGA_CODE' AND object_id = OBJECT_ID('SEIFA_2016'))=0
+BEGIN
+	Create INDEX IDX_LGA_CODE on [dbo].[SEIFA_2016](LGA_Code)
+END
+
