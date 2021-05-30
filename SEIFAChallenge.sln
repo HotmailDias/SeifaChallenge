@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEIFAChallenge", "SEIFAChallenge\SEIFAChallenge.csproj", "{8E6D903B-7970-470E-800E-6A382D26B1B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeifaChallenge_Tests", "SeifaChallenge_Tests\SeifaChallenge_Tests.csproj", "{9E7EF316-7A83-4640-AFC8-CDE9167073BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E6D903B-7970-470E-800E-6A382D26B1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6D903B-7970-470E-800E-6A382D26B1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6D903B-7970-470E-800E-6A382D26B1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6D903B-7970-470E-800E-6A382D26B1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E7EF316-7A83-4640-AFC8-CDE9167073BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7EF316-7A83-4640-AFC8-CDE9167073BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7EF316-7A83-4640-AFC8-CDE9167073BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7EF316-7A83-4640-AFC8-CDE9167073BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBEB52C1-AB53-43E7-84BE-72C8191FECA8}
+	EndGlobalSection
+EndGlobal
